@@ -5,8 +5,10 @@
 
 ```
 
-web-demo
+handwriting-js
 
+├── arr-forEach 实现 arr.forEach 方法
+├── arr-map 实现 arr.map 方法
 ├── currying-funciton 函数柯里化封装
 ├── debounce 防抖
 ├── deep-copy 深拷贝
