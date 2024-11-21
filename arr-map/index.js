@@ -1,5 +1,5 @@
-// 实现 arr.forEach
-Array.prototype.myforEach = function (callback, args) {
+// 实现 arr.map 功能
+Array.prototype.myMap = function (callback, args) {
   if (this == null) throw new TypeError('this is null or not defined')
   if (typeof callback !== "function") throw new TypeError(callback + ' is not a function')
 
@@ -13,16 +13,21 @@ Array.prototype.myforEach = function (callback, args) {
   // 其实使用 if 判断也可以达到这个效果，但是 移位符 的效率更高
   const len = obj.length >>> 0
   let idx = 0
+  const res = []
   while (idx < len) {
     if (idx in obj) {
-      callback.call(args, obj[idx], idx, obj);
+      res[idx] = callback.call(args, obj[idx], idx, obj);
     }
     idx++;
   }
+  return res
 }
+
 
 // 调用
 const arr = [1, 2, 3, 4]
-arr.myforEach((ele, idx, arr) => {
-  console.log(ele, idx, arr);
+const newArr = arr.myMap((ele, idx, arr) => {
+  return ele * 10
 })
+console.log(newArr);
+
