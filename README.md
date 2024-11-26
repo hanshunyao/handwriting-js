@@ -4,11 +4,13 @@
 
 
 ```
-
 handwriting-js
 
+├── arr-filter 实现 arr.filter 方法
 ├── arr-forEach 实现 arr.forEach 方法
 ├── arr-map 实现 arr.map 方法
+├── arr-some 实现 arr.some 方法
+├── arr-unique 实现数组去重方法
 ├── currying-funciton 函数柯里化封装
 ├── debounce 防抖
 ├── deep-copy 深拷贝
