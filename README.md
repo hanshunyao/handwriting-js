@@ -7,6 +7,7 @@
 handwriting-js
 
 ├── arr-filter 实现 arr.filter 方法
+├── arr-flat 实现数组扁平化方法
 ├── arr-forEach 实现 arr.forEach 方法
 ├── arr-map 实现 arr.map 方法
 ├── arr-some 实现 arr.some 方法
