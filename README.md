@@ -17,6 +17,7 @@ handwriting-js
 ├── deep-copy 深拷贝
 ├── indexedDB indexedDB 数据库使用
 ├── instanceof instanceof 方法实现
+├── lodash-get Lodash.get 方法实现
 ├── manage-cookie cookie 封装
 ├── promise 实现promise
 ├── shallow-copy 浅拷贝
