@@ -1,14 +1,12 @@
 # handwriting-js
 手写一些实现以及原理 ! 这一定很酷 ！
 
-
-
 ```
-
 handwriting-js
 
 ├── arr-forEach 实现 arr.forEach 方法
 ├── arr-map 实现 arr.map 方法
+├── bubble-sort 数组冒泡排序实现
 ├── currying-funciton 函数柯里化封装
 ├── debounce 防抖
 ├── deep-copy 深拷贝
