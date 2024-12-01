@@ -16,7 +16,8 @@ handwriting-js
 ├── instanceof instanceof 方法实现
 ├── lodash-get Lodash.get 方法实现
 ├── manage-cookie cookie 封装
-├── promise 实现promise
+├── promise promise 实现
+├── quick-sort 数组快速排序实现
 ├── shallow-copy 浅拷贝
 ├── throttle 节流
 └── README.md
