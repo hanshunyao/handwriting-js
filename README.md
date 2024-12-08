@@ -1,11 +1,3 @@
-<!--
- * @Author: Hansy hanshunyao_hansy@163.com
- * @Date: 2024-12-07 23:03:50
- * @LastEditors: Hansy hanshunyao_hansy@163.com
- * @LastEditTime: 2024-12-07 23:05:31
- * @FilePath: \handwriting-js\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # handwriting-js
 
 手写一些实现以及原理 ! 这一定很酷 ！
@@ -33,6 +25,7 @@ handwriting-js
 ├── manage-cookie cookie 封装
 ├── promise promise 实现
 ├── quick-sort 数组快速排序实现
+├── restore-binary-tree 前序中序后序还原二叉树
 ├── select-sort 数组选择排序实现
 ├── shallow-copy 浅拷贝
 ├── string-template 模板字符串功能实现
