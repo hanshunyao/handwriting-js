@@ -22,7 +22,17 @@ function flatEs6(arr) {
   return arr;
 }
 
+function flatten(arr) {
+  return arr.reduce((pre, cur) => {
+    return pre.concat(Array.isArray(cur) ? flatten(cur) : cur);
+  }, []);
+}
+
 const arrFlat1 = arr1.flat(Infinity);
 const arrFlat2 = flatEs5(arr1);
 const arrFlat3 = flatEs6(arr1);
-console.log(arrFlat1, arrFlat2, arrFlat3); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const arrFlat4 = JSON.parse(
+  '[' + JSON.stringify(arr1).replace(/\[|\]/g, '') + ']'
+);
+const arrFlat5 = flatten(arr1);
+console.log(arrFlat1, arrFlat2, arrFlat3, arrFlat4, arrFlat5); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
