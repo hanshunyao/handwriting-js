@@ -11,8 +11,11 @@ handwriting-js
 ├── arr-forEach arr.forEach 方法实现
 ├── arr-map arr.map 方法实现
 ├── arr-some arr.some 方法实现
+├── arr-sort
+│   ├── bubble-sort 数组冒泡排序实现
+│   ├── quick-sort 数组快速排序实现
+│   └── select-sort 数组选择排序实现
 ├── arr-unique arr.unique 方法实现
-├── bubble-sort 数组冒泡排序实现
 ├── currying-funciton 函数柯里化封装
 ├── debounce 函数防抖
 ├── deep-copy 深拷贝
@@ -26,9 +29,7 @@ handwriting-js
 ├── manage-cookie cookie 封装
 ├── new new 实现
 ├── promise promise 实现
-├── quick-sort 数组快速排序实现
 ├── restore-binary-tree 前序中序后序还原二叉树
-├── select-sort 数组选择排序实现
 ├── shallow-copy 浅拷贝
 ├── string-template 模板字符串功能实现
 ├── throttle 函数节流
