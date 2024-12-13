@@ -13,6 +13,7 @@ handwriting-js
 ├── arr-some arr.some 方法实现
 ├── arr-sort
 │   ├── bubble-sort 数组冒泡排序实现
+│   ├── insert-sort 数组插入排序实现
 │   ├── quick-sort 数组快速排序实现
 │   └── select-sort 数组选择排序实现
 ├── arr-unique arr.unique 方法实现
