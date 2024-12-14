@@ -5,28 +5,30 @@
 ```
 handwriting-js
 
-├── arr-fill arr.fill 方法实现
-├── arr-filter arr.filter 方法实现
-├── arr-flat 数组扁平化方法实现
-├── arr-forEach arr.forEach 方法实现
-├── arr-map arr.map 方法实现
-├── arr-some arr.some 方法实现
 ├── arr-sort
-│   ├── bubble-sort 数组冒泡排序实现
-│   ├── insert-sort 数组插入排序实现
-│   ├── quick-sort 数组快速排序实现
-│   └── select-sort 数组选择排序实现
-├── arr-unique arr.unique 方法实现
+│   ├── fill arr.fill 方法实现
+│   ├── filter arr.filter 方法实现
+│   ├── flat 数组扁平化方法实现
+│   ├── forEach arr.forEach 方法实现
+│   ├── map arr.map 方法实现
+│   ├── some arr.some 方法实现
+│   ├── sort 数组排序
+│   │   ├── bubble-sort 冒泡排序实现
+│   │   ├── insert-sort 插入排序实现
+│   │   ├── quick-sort 快速排序实现
+│   │   └── select-sort 选择排序实现
+│   └── unique arr.unique 方法实现
 ├── currying-funciton 函数柯里化封装
 ├── debounce 函数防抖
 ├── deep-copy 深拷贝
 ├── indexedDB indexedDB 数据库使用
 ├── instanceof instanceof 方法实现
 ├── lazy-load-img 图片懒加载实现
-├── lodash-difference Lodash.difference 方法实现，用于查询两个数组的差异
-├── lodash-chunk Lodash.chunk 方法实现，用于将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。
-├── lodash-get Lodash.get 方法实现，用于根据 object 对象的path路径获取值。
-├── lodash-isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
+├── lodash
+│   ├── chunk Lodash.chunk 方法实现，用于将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。
+│   ├── difference Lodash.difference 方法实现，用于查询两个数组的差异
+│   ├── get Lodash.get 方法实现，用于根据 object 对象的path路径获取值。
+│   └── isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
 ├── manage-cookie cookie 封装
 ├── new new 实现
 ├── promise promise 实现
