@@ -1,3 +1,4 @@
+// 实现 Lodash.difference 方法
 function myDifference1(array, values) {
   const result = [];
   for (const element of array) {
