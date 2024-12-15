@@ -26,6 +26,7 @@ handwriting-js
 ├── lazy-load-img 图片懒加载实现
 ├── lodash
 │   ├── chunk Lodash.chunk 方法实现，用于将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组。
+│   ├── clamp Lodash.clamp 方法实现，Lodash.clamp(number, [lower], upper)用于返回限制在 lower 和 upper 之间的值。。
 │   ├── difference Lodash.difference 方法实现，用于查询两个数组的差异
 │   ├── get Lodash.get 方法实现，用于根据 object 对象的path路径获取值。
 │   └── isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
