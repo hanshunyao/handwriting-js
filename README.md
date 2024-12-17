@@ -1,3 +1,11 @@
+<!--
+ * @Author: Hansy hanshunyao_hansy@163.com
+ * @Date: 2024-12-16 16:38:49
+ * @LastEditors: Hansy hanshunyao_hansy@163.com
+ * @LastEditTime: 2024-12-17 14:23:58
+ * @FilePath: \handwriting-js\README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # handwriting-js
 
 手写一些实现以及原理 ! 这一定很酷 ！
@@ -29,6 +37,7 @@ handwriting-js
 │   ├── clamp Lodash.clamp 方法实现，Lodash.clamp(number, [lower], upper)用于返回限制在 lower 和 upper 之间的值
 │   ├── compact Lodash.compact 方法实现，将输入的数组中的 false、null、0、空字串、undefined 和 NaN 都去除，并输出一个新的数组
 │   ├── difference Lodash.difference 方法实现，用于查询两个数组的差异
+│   ├── difference Lodash.fromPairs 方法实现，用于返回一个由键值对pairs构成的对象
 │   ├── get Lodash.get 方法实现，用于根据 object 对象的path路径获取值
 │   └── isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
 ├── manage-cookie cookie 封装
