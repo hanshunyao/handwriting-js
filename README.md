@@ -19,8 +19,10 @@ handwriting-js
 │   │   └── select-sort 选择排序实现
 │   └── unique arr.unique 方法实现
 ├── currying-funciton 函数柯里化封装
-├── debounce 函数防抖
 ├── deep-copy 深拷贝
+├── function
+│   ├── debounce 函数防抖
+│   └── throttle 函数节流
 ├── indexedDB indexedDB 数据库使用
 ├── instanceof instanceof 方法实现
 ├── lazy-load-img 图片懒加载实现
@@ -39,7 +41,6 @@ handwriting-js
 ├── restore-binary-tree 前序中序后序还原二叉树
 ├── shallow-copy 浅拷贝
 ├── string-template 模板字符串功能实现
-├── throttle 函数节流
 └── README.md
 
 ```
