@@ -21,6 +21,7 @@ handwriting-js
 ├── currying-funciton 函数柯里化封装
 ├── deep-copy 深拷贝
 ├── function
+│   ├── call 函数 call 方法实现
 │   ├── debounce 函数防抖
 │   └── throttle 函数节流
 ├── indexedDB indexedDB 数据库使用
