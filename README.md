@@ -11,6 +11,7 @@ handwriting-js
 │   ├── flat 数组扁平化方法实现
 │   ├── forEach arr.forEach 方法实现
 │   ├── map arr.map 方法实现
+│   ├── reduce arr.reduce 方法实现
 │   ├── some arr.some 方法实现
 │   ├── sort 数组排序
 │   │   ├── bubble-sort 冒泡排序实现
