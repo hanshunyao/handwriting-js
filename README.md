@@ -37,6 +37,7 @@ handwriting-js
 │   ├── dropWhile Lodash.dropWhile 创建一个切片数组，去除array中从起点开始到 predicate 返回假值结束部分
 │   ├── fromPairs Lodash.fromPairs 方法实现，用于返回一个由键值对pairs构成的对象
 │   ├── get Lodash.get 方法实现，用于根据 object 对象的path路径获取值
+│   ├── inRange Lodash.inRange 方法实现，inRange(number, [start=0], end)用于检查 n 是否在 start 与 end 之间，但不包括 end。
 │   └── isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
 ├── manage-cookie cookie 封装
 ├── new new 实现
