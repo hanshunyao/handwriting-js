@@ -6,6 +6,7 @@
 handwriting-js
 
 ├── arr-sort
+│   ├── classArray2Array 类数组转换为数组方法实现
 │   ├── fill arr.fill 方法实现
 │   ├── filter arr.filter 方法实现
 │   ├── flat 数组扁平化方法实现
