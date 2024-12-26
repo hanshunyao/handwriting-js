@@ -48,6 +48,7 @@ handwriting-js
 ├── restore-binary-tree 前序中序后序还原二叉树
 ├── shallow-copy 浅拷贝
 ├── string-template 模板字符串功能实现
+├── trim string.trim 方法实现
 └── README.md
 
 ```
