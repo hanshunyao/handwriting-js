@@ -28,6 +28,7 @@ handwriting-js
 │   ├── bind 函数 bind 方法实现
 │   ├── call 函数 call 方法实现
 │   ├── debounce 函数防抖
+│   ├── sleep 函数睡眠
 │   └── throttle 函数节流
 ├── indexedDB indexedDB 数据库使用
 ├── instanceof instanceof 方法实现
