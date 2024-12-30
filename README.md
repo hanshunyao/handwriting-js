@@ -44,6 +44,7 @@ handwriting-js
 │   ├── get Lodash.get 方法实现，用于根据 object 对象的path路径获取值
 │   ├── inRange Lodash.inRange 方法实现，inRange(number, [start=0], end)用于检查 n 是否在 start 与 end 之间，但不包括 end。
 │   └── isEmpty Lodash.isEmpty 方法实现，用于检查 value 是否为一个空对象，集合，映射或者set。
+│   └── repeat Lodash.repeat 方法实现，用于将一个函数间隔指定时间重复指定次数。
 ├── manage-cookie cookie 封装
 ├── new new 实现
 ├── promise promise 实现
