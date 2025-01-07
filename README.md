@@ -24,6 +24,7 @@ handwriting-js
 │   └── unique arr.unique 方法实现
 ├── currying-funciton 函数柯里化封装
 ├── deep-copy 深拷贝
+├── eventBus 封装事件总线实现数据传递
 ├── function
 │   ├── apply 函数 apply 方法实现
 │   ├── bind 函数 bind 方法实现
