@@ -25,6 +25,8 @@ handwriting-js
 ├── currying-funciton 函数柯里化封装
 ├── deep-copy 深拷贝
 ├── eventBus 封装事件总线实现数据传递
+├── format
+│   ├── price 金额数字转千分位
 ├── function
 │   ├── apply 函数 apply 方法实现
 │   ├── bind 函数 bind 方法实现
