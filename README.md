@@ -24,6 +24,7 @@ handwriting-js
 │   └── unique arr.unique 方法实现
 ├── currying-funciton 函数柯里化封装
 ├── deep-copy 深拷贝
+├── delay 延时函数实现
 ├── eventBus 封装事件总线实现数据传递
 ├── format
 │   ├── price 金额数字转千分位
