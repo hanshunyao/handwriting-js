@@ -37,6 +37,7 @@ handwriting-js
 │   └── throttle 函数节流
 ├── indexedDB indexedDB 数据库使用
 ├── instanceof instanceof 方法实现
+├── KMP KMP 算法实现
 ├── lazy-load-img 图片懒加载实现
 ├── lodash
 │   ├── chunk Lodash.chunk 方法实现，用于将数组（array）拆分成多个 size 长度的区块，并将这些区块组成一个新数组
