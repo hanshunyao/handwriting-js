@@ -1,11 +1,10 @@
 // 实现 function.call 方法
-Function.prototype.myCall = function (context = window) {
-  if (typeof this !== 'function') return new Error('类型错误');
+Function.prototype.myCall = function (context = window, ...args) {
   const obj = context || window;
-  obj.fn = this;
-  const arg = [...arguments].slice(1);
-  res = obj.fn(...arg);
-  delete obj.fn;
+  let fn = Symbol();
+  obj[fn] = this;
+  const res = context[fn](...args);
+  delete obj[fn];
   return res;
 };
 
@@ -17,3 +16,4 @@ let obj = {
   name: 1,
 };
 test.myCall(obj, 1, 2);
+test.myCall2(obj, 1, 2);
