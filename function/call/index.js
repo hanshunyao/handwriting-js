@@ -1,9 +1,10 @@
 // 实现 function.call 方法
-Function.prototype.myCall = function (context = window, ...args) {
-  const obj = context || window;
+Function.prototype.myCall = function (context = window) {
+  let obj = context || window;
+  let args = [...arguments].slice(1);
   let fn = Symbol();
   obj[fn] = this;
-  const res = context[fn](...args);
+  let res = context[fn](...args);
   delete obj[fn];
   return res;
 };
@@ -16,4 +17,3 @@ let obj = {
   name: 1,
 };
 test.myCall(obj, 1, 2);
-test.myCall2(obj, 1, 2);
