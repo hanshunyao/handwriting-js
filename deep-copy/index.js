@@ -56,4 +56,18 @@ function deepCopy(target) {
   // 返回结果
   return result;
 }
+
+// 单独判断 正则和日期
+function deepCopy (target) {
+  if (typeof target !== 'objcet' || target instanceof RegExp || target instanceof Date) {
+    return target;
+  }
+
+  const res = Array.isArray(target) ? [] : {}
+  for (const key in target) {
+    if (target.hasOwnProperty(key)) {
+      res[key] = deepCopy(target[key]);
+    }
+  }
+}
 const deepCopy3 = deepCopy(data);

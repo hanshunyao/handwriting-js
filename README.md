@@ -5,7 +5,7 @@
 ```
 handwriting-js
 
-├── arr-sort
+├── arr
 │   ├── at arr.at 方法实现
 │   ├── classArray2Array 类数组转换为数组方法实现
 │   ├── every arr.every 方法实现
